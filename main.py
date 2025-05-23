@@ -9,7 +9,9 @@ if __name__ == "__main__":
             id = line[0]
             data = line[1:]
             ht.setitem(id, data)
+            
     print(ht)
+    print(ht.getitem('s0021e'))
     """
     1. Extract the records from the student_data file
     and add them one at a time, as a Python dict, 
